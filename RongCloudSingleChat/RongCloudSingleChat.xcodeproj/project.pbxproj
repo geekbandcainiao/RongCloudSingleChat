@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20E237271F20E9730058AF69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E237261F20E9730058AF69 /* main.m */; };
+		20E2372A1F20E9730058AF69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E237291F20E9730058AF69 /* AppDelegate.m */; };
+		20E2372D1F20E9730058AF69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E2372C1F20E9730058AF69 /* ViewController.m */; };
+		20E237301F20E9730058AF69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E2372E1F20E9730058AF69 /* Main.storyboard */; };
+		20E237321F20E9730058AF69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20E237311F20E9730058AF69 /* Assets.xcassets */; };
+		20E237351F20E9730058AF69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E237331F20E9730058AF69 /* LaunchScreen.storyboard */; };
+		8CFD7A57E06A8590EFE8947B /* libPods-RongCloudSingleChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C616EEA7DCB98EF010951DD2 /* libPods-RongCloudSingleChat.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C81D8B2044B8BB749D80127 /* Pods-RongCloudSingleChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RongCloudSingleChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-RongCloudSingleChat/Pods-RongCloudSingleChat.release.xcconfig"; sourceTree = "<group>"; };
+		20E237221F20E9730058AF69 /* RongCloudSingleChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RongCloudSingleChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20E237261F20E9730058AF69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20E237281F20E9730058AF69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20E237291F20E9730058AF69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20E2372B1F20E9730058AF69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		20E2372C1F20E9730058AF69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		20E2372F1F20E9730058AF69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20E237311F20E9730058AF69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20E237341F20E9730058AF69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20E237361F20E9730058AF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20E2373C1F210AB90058AF69 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9721796150CA7CB7FC548E75 /* Pods-RongCloudSingleChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RongCloudSingleChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RongCloudSingleChat/Pods-RongCloudSingleChat.debug.xcconfig"; sourceTree = "<group>"; };
+		C616EEA7DCB98EF010951DD2 /* libPods-RongCloudSingleChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RongCloudSingleChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20E2371F1F20E9730058AF69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CFD7A57E06A8590EFE8947B /* libPods-RongCloudSingleChat.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20E237191F20E9730058AF69 = {
+			isa = PBXGroup;
+			children = (
+				20E237241F20E9730058AF69 /* RongCloudSingleChat */,
+				20E237231F20E9730058AF69 /* Products */,
+				38C909C469AC427EB01662CF /* Pods */,
+				DD8EEE89593FA72CB8ADD76A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		20E237231F20E9730058AF69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20E237221F20E9730058AF69 /* RongCloudSingleChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20E237241F20E9730058AF69 /* RongCloudSingleChat */ = {
+			isa = PBXGroup;
+			children = (
+				20E237281F20E9730058AF69 /* AppDelegate.h */,
+				20E237291F20E9730058AF69 /* AppDelegate.m */,
+				20E2372B1F20E9730058AF69 /* ViewController.h */,
+				20E2372C1F20E9730058AF69 /* ViewController.m */,
+				20E2372E1F20E9730058AF69 /* Main.storyboard */,
+				20E237311F20E9730058AF69 /* Assets.xcassets */,
+				20E237331F20E9730058AF69 /* LaunchScreen.storyboard */,
+				20E237361F20E9730058AF69 /* Info.plist */,
+				20E2373C1F210AB90058AF69 /* PrefixHeader.pch */,
+				20E237251F20E9730058AF69 /* Supporting Files */,
+			);
+			path = RongCloudSingleChat;
+			sourceTree = "<group>";
+		};
+		20E237251F20E9730058AF69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20E237261F20E9730058AF69 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38C909C469AC427EB01662CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9721796150CA7CB7FC548E75 /* Pods-RongCloudSingleChat.debug.xcconfig */,
+				1C81D8B2044B8BB749D80127 /* Pods-RongCloudSingleChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD8EEE89593FA72CB8ADD76A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C616EEA7DCB98EF010951DD2 /* libPods-RongCloudSingleChat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20E237211F20E9730058AF69 /* RongCloudSingleChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20E237391F20E9730058AF69 /* Build configuration list for PBXNativeTarget "RongCloudSingleChat" */;
+			buildPhases = (
+				BCA6D60D0E01EF2FB1EDF762 /* [CP] Check Pods Manifest.lock */,
+				20E2371E1F20E9730058AF69 /* Sources */,
+				20E2371F1F20E9730058AF69 /* Frameworks */,
+				20E237201F20E9730058AF69 /* Resources */,
+				CC786A679F92F85C1B76F4F7 /* [CP] Embed Pods Frameworks */,
+				0DE60FACEB00502E19226E2F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RongCloudSingleChat;
+			productName = RongCloudSingleChat;
+			productReference = 20E237221F20E9730058AF69 /* RongCloudSingleChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20E2371A1F20E9730058AF69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WZ;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = weizhidaoshuo;
+				TargetAttributes = {
+					20E237211F20E9730058AF69 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 20E2371D1F20E9730058AF69 /* Build configuration list for PBXProject "RongCloudSingleChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20E237191F20E9730058AF69;
+			productRefGroup = 20E237231F20E9730058AF69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20E237211F20E9730058AF69 /* RongCloudSingleChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20E237201F20E9730058AF69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E237351F20E9730058AF69 /* LaunchScreen.storyboard in Resources */,
+				20E237321F20E9730058AF69 /* Assets.xcassets in Resources */,
+				20E237301F20E9730058AF69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DE60FACEB00502E19226E2F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RongCloudSingleChat/Pods-RongCloudSingleChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCA6D60D0E01EF2FB1EDF762 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CC786A679F92F85C1B76F4F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RongCloudSingleChat/Pods-RongCloudSingleChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20E2371E1F20E9730058AF69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E2372D1F20E9730058AF69 /* ViewController.m in Sources */,
+				20E2372A1F20E9730058AF69 /* AppDelegate.m in Sources */,
+				20E237271F20E9730058AF69 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20E2372E1F20E9730058AF69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20E2372F1F20E9730058AF69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20E237331F20E9730058AF69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20E237341F20E9730058AF69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20E237371F20E9730058AF69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		20E237381F20E9730058AF69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20E2373A1F20E9730058AF69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9721796150CA7CB7FC548E75 /* Pods-RongCloudSingleChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RongCloudSingleChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = weizhidaoshuo.RongCloudSingleChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		20E2373B1F20E9730058AF69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C81D8B2044B8BB749D80127 /* Pods-RongCloudSingleChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RongCloudSingleChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = weizhidaoshuo.RongCloudSingleChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20E2371D1F20E9730058AF69 /* Build configuration list for PBXProject "RongCloudSingleChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20E237371F20E9730058AF69 /* Debug */,
+				20E237381F20E9730058AF69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20E237391F20E9730058AF69 /* Build configuration list for PBXNativeTarget "RongCloudSingleChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20E2373A1F20E9730058AF69 /* Debug */,
+				20E2373B1F20E9730058AF69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20E2371A1F20E9730058AF69 /* Project object */;
+}
