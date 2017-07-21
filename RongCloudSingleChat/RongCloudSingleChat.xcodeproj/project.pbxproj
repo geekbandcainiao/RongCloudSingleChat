@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		100D056B5B5ED239D4E3677D /* Pods_RongCloudSingleChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB4095E8D2064D2C85B0CFF /* Pods_RongCloudSingleChat.framework */; };
 		20E237271F20E9730058AF69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E237261F20E9730058AF69 /* main.m */; };
 		20E2372A1F20E9730058AF69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E237291F20E9730058AF69 /* AppDelegate.m */; };
 		20E2372D1F20E9730058AF69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E2372C1F20E9730058AF69 /* ViewController.m */; };
 		20E237301F20E9730058AF69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E2372E1F20E9730058AF69 /* Main.storyboard */; };
 		20E237321F20E9730058AF69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20E237311F20E9730058AF69 /* Assets.xcassets */; };
 		20E237351F20E9730058AF69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E237331F20E9730058AF69 /* LaunchScreen.storyboard */; };
-		8CFD7A57E06A8590EFE8947B /* libPods-RongCloudSingleChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C616EEA7DCB98EF010951DD2 /* libPods-RongCloudSingleChat.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +29,8 @@
 		20E237341F20E9730058AF69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20E237361F20E9730058AF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20E2373C1F210AB90058AF69 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5FB4095E8D2064D2C85B0CFF /* Pods_RongCloudSingleChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RongCloudSingleChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9721796150CA7CB7FC548E75 /* Pods-RongCloudSingleChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RongCloudSingleChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RongCloudSingleChat/Pods-RongCloudSingleChat.debug.xcconfig"; sourceTree = "<group>"; };
-		C616EEA7DCB98EF010951DD2 /* libPods-RongCloudSingleChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RongCloudSingleChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CFD7A57E06A8590EFE8947B /* libPods-RongCloudSingleChat.a in Frameworks */,
+				100D056B5B5ED239D4E3677D /* Pods_RongCloudSingleChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +100,7 @@
 		DD8EEE89593FA72CB8ADD76A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C616EEA7DCB98EF010951DD2 /* libPods-RongCloudSingleChat.a */,
+				5FB4095E8D2064D2C85B0CFF /* Pods_RongCloudSingleChat.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
